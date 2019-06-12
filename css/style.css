@@ -1,0 +1,80 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font: 14px/20px Arial, sans-serif;
+}
+
+a {
+	text-decoration: none; /* Текст без оформлення */
+	color: #0072BB; /* Колір тексту світло-синій */
+}
+
+section{
+	background-color: #EBEBEB; /* Колір фону світло-сірий */
+	padding-top: 40px; /* внутрішній верхній відступ 40px */
+	padding-bottom: 50px; /* внутрішній нижній відступ 50px */
+	border: 1px solid red; /* червона суцільна рамка товщиною 1px */
+}
+
+.container {
+	width: 80%; /* ширина 80% відносно секції */
+	margin: 0 auto; /* вирівнювання по центру */
+	padding: 60px; /* внутрішні відступи 60px */
+	background-color: #fff; /* колір фону білий */
+	text-align: center; /* вирівнювання тексту по центру */
+	border: 1px solid blue; /* синя суцільна рамка товщиною 1px*/
+}
+
+p{
+	text-align: justify;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+h2 {
+	padding-bottom: 30px;
+}
+
+ /* Контейнер списку */
+.nav {
+	list-style: none; /* видаляємо маркери */
+	margin: 0;
+	padding: 0;
+	border: 1px solid #AAA;
+}
+
+ /* Елемент списку */
+.nav li {
+	border: 1px solid #AAA;
+	margin: 5px;
+}
+
+ /* Посилання в елементі списку */
+.nav li a{
+	display: block;  /* робимо блочним елементов */
+	padding: 10px;
+}
+
+ /* Колір фону при наведенні */
+.nav li a:hover{
+	background-color: #EEE;
+}
+
+ /* Контейнер таблиці */
+table {
+	border-collapse: collapse;  /* Позбавляємось подвійної рамки */
+	border: 1px solid #AAA;
+	margin: 0 auto;
+}
+ /* Комірки таблиці */
+table td,
+table th{
+	padding: 10px;
+	border: 1px solid #AAA;
+}
+
+#records img{
+	width: 90%;
+}
